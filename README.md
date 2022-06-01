@@ -5,10 +5,10 @@ This calculator is very primitive in the scope of other calculators on the web a
 Please use a code compiler to run this and have a version of python 3.10
 
 This calculator DOES NOT:
-              have 3d objects as calculation option
-              proper save file placement
-              UI
-              work in versions below 3.10(as said above)
-              Physics calculations ( I do not have any formulas for it)
-              Functions
-              Fractions
+1. | have 3d objects as calculation option
+2. | proper save file placement
+3. | UI
+4. | work in versions below 3.10(as said above)
+5. | Physics calculations ( I do not have any formulas for it)
+6. | Functions
+7. | Fractions
