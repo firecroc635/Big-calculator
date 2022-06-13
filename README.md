@@ -3,9 +3,9 @@ Big-calculator is literally just a calculator with a bunch of functions, it is i
 This calculator is very primitive in the scope of other calculators on the web as I made this my personal project so I can use it in school
 
 Steps to run this:
-Download a code editor such as VSC [https://code.visualstudio.com/]
-then downloading python 3.10 [https://www.python.org/downloads/]
-AND then download the file, put it in the directory of vsc then you're good to go
+1. |Download a code editor such as VSC [https://code.visualstudio.com/]
+2. |then downloading python 3.10 [https://www.python.org/downloads/]
+3. |AND then download the file, put it in the directory of vsc then you're good to go
 
 This calculator DOES NOT:
 1. | have 3d objects as calculation option
