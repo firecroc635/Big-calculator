@@ -6,6 +6,7 @@ from functions.significant import *
 from functions.standardform import *
 from functions.Mactorials import *
 from functions.circly import *
+from functions.Ares import *
 
 #variables
 instructionRepeater = 1
@@ -17,8 +18,7 @@ while whileLoopKiller:
         print('''
 |1| Right angle Traingle calculator
 |2| Regular Polygon calculator
-|3| 3d shapes calculator
-|4| Extra...
+|3| Extra...
 |0| Exit
         ''')
     Doi = input("pick from the options above: ")
@@ -34,14 +34,8 @@ while whileLoopKiller:
         case "2":
             whileLoopKiller = SidesnAngles(whileLoopKiller)
 
-#3d shapes (although I didn't make it)
-        case "3":
-            print()
-            print("The calculations aren't available yet A.K.A still in development until I can mentally handle a triangular prism")
-            instructionRepeater = False
-
 #The extras
-        case "4":
+        case "3":
             while whileLoopKiller:
                 print('''
     |1| Significant figures
@@ -50,8 +44,6 @@ while whileLoopKiller:
     |4| Circles calculations
     |5| Area and perimeter of all shapes(including the ones in the options above)
     |6| Fractions
-    |7| Functions
-    |ph| Physics calculations(not implicated yet)
     |0| Go back to the first page
                 ''')
                 extraAsker = input("pick from the options above: ")
@@ -64,8 +56,8 @@ while whileLoopKiller:
                         whileLoopKiller = Factorials(whileLoopKiller)
                     case "4":
                         whileLoopKiller = circles(whileLoopKiller)
-                    case "ph":
-                        print("not started yet")
+                    case "5":
+                        whileLoopKiller = ArenPerimeter(whileLoopKiller)
                     case "0":
                         break
                     case _:

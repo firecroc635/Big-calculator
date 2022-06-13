@@ -7,39 +7,24 @@
     sum of angles: (n-2) * 180 = j
     interior angle: j / n = u
     exterior angle: 360 - u
-   sum of Angles: 180.0
-   Interior Angle: 60.0
-   Exterior Angle: 300.0
-   All sides: 3.0
+   sum of Angles: 6120.0
+   Interior Angle: 170.0
+   Exterior Angle: 190.0
+   All sides: 36.0
 ]
 
 [
-   Operation: Interior angles
+   Operation: sum of angles
    Formula used: 
     n = sides
     j = sum of angles
-    a = interior angle
-    Sides: 360 / (180 - a): n
+    u = interior angle
     sum of angles: (n-2) * 180 = j
-    exterior angle: 360 - a
-   sum of Angles: 360.0
-   Interior Angle: 90.0
-   Exterior Angle: 270.0
-   All sides: 4
-]
-
-[
-   Operation: Exterior angles
-   Formula used: 
-    n = sides
-    j = sum of angles
-    a = exterior angle
-    Sides: 360 / (180 - a): n
-    sum of angles: (n-2) * 180 = j
-    Interior angle: 360 - a
-   sum of Angles: 360.0
-   Interior Angle: 90.0
-   Exterior Angle: 270.0
-   All sides: 4
+    interior angle: j / n = u
+    exterior angle: 360 - u
+   sum of Angles: 6120.0
+   Interior Angle: 170.0
+   Exterior Angle: 190.0
+   All sides: 36.0
 ]
 

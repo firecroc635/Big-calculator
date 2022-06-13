@@ -1,6 +1,8 @@
+import os
+
 def endMessage(whileLoopKiller):
     while whileLoopKiller:
-        lo = input("would you like to calculate something else? [y/n]").capitalize()
+        lo = input("would you like to calculate something else? [y/n]: ").capitalize()
         if not lo in ("Y", "N"):
             print("not a valid response")
         elif lo == "N":
@@ -11,7 +13,7 @@ def endMessage(whileLoopKiller):
             return whileLoopKiller
 
 def resultSaver(fileName, result, Operation, Formula):
-    fileName = "math\\BIG CALCULATOR\\functions\\Results\\" + fileName + ".txt"
+    fileName = "BIG CALCULATOR\\functions\\Results\\" + fileName + ".txt"
     openFile = open(fileName, "a")
     openFile.writelines("[" + '\n')
     openFile.writelines("   Operation: " + Operation + '\n')
@@ -21,9 +23,11 @@ def resultSaver(fileName, result, Operation, Formula):
     openFile.writelines('\n')
     openFile.writelines('\n')
     openFile.close()
+    cwd = os.getcwd()
+    print(format(cwd))
 
 def resultSaverPolygon(fileName, sumAngl, interAngle, exterAngle, sid,  Operation, Formula):
-    fileName = "math\\BIG CALCULATOR\\functions\\Results\\" + fileName + ".txt"
+    fileName = "BIG CALCULATOR\\functions\\Results\\" + fileName + ".txt"
     openFile = open(fileName, "a")
     openFile.write("[" + '\n')
     openFile.writelines("   Operation: " + Operation + '\n')

@@ -1,14 +1,28 @@
 [
-   Operation: Right angle triangle perimeter
-   Formula used: Hypotenus + leg_a + leg_b = p
-   Result: 99.0
+   Operation: Right angle triangle perimeter with only one leg
+   Formula used: sqrt(sqaure(leg_a) + square(leg_a)) = hypotenus + (leg_a * 2)
+   Result: 122.91
 ]
 
 
 [
-   Operation: Right angle triangle perimeter without hypotenus
-   Formula used: sqrt(sqaure(leg_a) + square(leg_b)) = hypotenus + leg_a + leg_b = p
-   Result: 60.94
+   Operation: Right angle triangle perimeter
+   Formula used: Hypotenus + leg_a + leg_b = p
+   Result: 3.0
+]
+
+
+[
+   Operation: Right angle triangle perimeter
+   Formula used: Hypotenus + leg_a + leg_b = p
+   Result: 3.0
+]
+
+
+[
+   Operation: Right angle triangle perimeter
+   Formula used: Hypotenus + leg_a + leg_b = p
+   Result: 3.0
 ]
 
 
@@ -18,30 +32,35 @@
    leg_a * leg_b
    _____________  = A
          2
-   Result: 2080
+         
+   Result: 0
 ]
+
 
 [
    Operation: Right angle triangle area with hypotenus and one leg
    Formula used: 
-          _                 _
-         | square(hypotenus) |
-    sqrt | _________________ | = leg_a
-         |         2         |
-         |_                 _|
+    sqrt(hypo^2 - leg_a^2) = leg_b
 
-    square(leg_a)
-   ______________  = A
+    leg_a * leg_b
+   _______________  = A
           2
           
-   Result: 324
+   Result: 125
 ]
 
 
 [
-   Operation: Right angle triangle angle finder without hypotenus
-   Formula used: [put later]
-   Result: angle alpha 45.0 angle beta 45.0
+   Operation: Right angle triangle pythagora's with hypotenus and only one leg
+   Formula used: sqrt(hypotenus^2 - leg_a^2) = leg_b
+   Result: 10
+]
+
+
+[
+   Operation: Right angle triangle pythagora's
+   Formula used: sqrt(leg_a^2 + leg_b^2) = hypotenus
+   Result: 6
 ]
 
 

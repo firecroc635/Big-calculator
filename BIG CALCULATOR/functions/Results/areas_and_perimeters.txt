@@ -1,0 +1,85 @@
+[
+   Operation: area for square
+   Formula used: a x 4
+   Result: 400.0
+]
+
+
+[
+   Operation: area for square
+   Formula used: a x 4
+   Result: 1296.0
+]
+
+
+[
+   Operation: Right angle triangle area
+   Formula used: 
+   leg_a * leg_b
+   _____________  = A
+         2
+         
+   Result: 144
+]
+
+
+[
+   Operation: Right angle triangle area
+   Formula used: 
+   leg_a * leg_b
+   _____________  = A
+         2
+         
+   Result: 672
+]
+
+
+[
+   Operation: Right angle triangle perimeter without hypotenus
+   Formula used: sqrt(sqaure(leg_a) + square(leg_b)) = hypotenus + leg_a + leg_b = p
+   Result: 169.45
+]
+
+
+[
+   Operation: Right angle triangle perimeter
+   Formula used: Hypotenus + leg_a + leg_b = p
+   Result: 93.0
+]
+
+
+[
+   Operation: perimeter for rectangle
+   Formula used: 2(a + b)
+   Result: 194
+]
+
+
+[
+   Operation: perimeter for rectangle
+   Formula used: 2(a + b)
+   Result: 176
+]
+
+
+[
+   Operation: perimeter for equilateral triangle
+   Formula used: a * 3
+   Result: 96.0
+]
+
+
+[
+   Operation: area for Rhobus
+   Formula used: pq / 2
+   Result: 414.0
+]
+
+
+[
+   Operation: perimeter for Trapezium
+   Formula used: a + b + c + d
+   Result: 143.0
+]
+
+
